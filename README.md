@@ -50,7 +50,7 @@ todo-app/
 ### 1. Cloner le projet
 
 ```bash
-git clone https://github.com/ton-compte/todo-app.git
+git clone https://github.com/Hanane-ELFADIL/todo-app.git
 cd todo-app
 ```
 
