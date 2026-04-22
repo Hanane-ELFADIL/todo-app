@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(135deg, #f2c4c4, #f9e8e8);
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.app-card {
+  background: #f9e8e8;
+  border: none;
+}
+
+h1 {
+  color: #8b2635;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #8b2635;
+  box-shadow: 0 0 0 0.2rem rgba(139, 38, 53, 0.15);
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.task-text.done {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.priority-low { background: #f9e8e8; color: #8b2635; }
+.priority-medium { background: #f2c4c4; color: #7a1e2e; }
+.priority-high { background: #8b2635; color: #ffffff; }
